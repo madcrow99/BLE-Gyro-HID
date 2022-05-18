@@ -3,9 +3,12 @@ This project is to create a low-cost human interface device (HID) that enables p
 
 The device uses a gyroscope mounted to an earpiece to track head movements (very little movement required) and move a mouse pointer accordingly. The device has 4 optional switch / button inputs (3.5mm headphone jack) for use with any switches that the user can control.
 
-left: works the same as the left click button on a regular mouse 
+left: works the same as the left click button on a regular mouse
+
 right: works the same as the right click button on a regular mouse 
+
 scroll: tap to scroll down and long press to scroll up
+
 dwell: tap to to toggle dwell clicking on and off. Dwell clicking is where the device will left click/tap when the pointer is stationary for a specified time. Being able to turn this feature on and off really helps the user from going crazy when the mouse constantly clicks.
 
 
