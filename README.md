@@ -15,7 +15,7 @@ scroll: tap to scroll down and long press to scroll up
 dwell: tap to to toggle dwell clicking on and off. Dwell clicking is where the device will left click/tap when the pointer is stationary for a specified time. Being able to turn this feature on and off really helps the user from going crazy when the mouse constantly clicks.
 
 
-![image](https://user-images.githubusercontent.com/60524115/169169440-575a1dae-fa35-465c-b26f-152073b4841a.png)
+![image](https://user-images.githubusercontent.com/60524115/179322193-1a8e5d2b-2505-4010-b6bb-3e3a552ba3bf.png)
 
 ![image](https://user-images.githubusercontent.com/60524115/169169907-82e66a26-245c-4c65-b1aa-6736aed9e78a.png)
 
