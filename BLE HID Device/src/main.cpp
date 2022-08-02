@@ -21,7 +21,7 @@ int8_t gx, gy;//calculated mouse movement from gyro sensor
 
 const int NUM_BUTTONS = 4;
 Bounce *buttons = new Bounce[NUM_BUTTONS];//set up 4 buttons with denouncing(left click, right click, scroll, dwell click toggle)
-int BUTTON_PINS[NUM_BUTTONS] = { A1, A2, A3, A4};
+int BUTTON_PINS[NUM_BUTTONS] = { A2, A3, A4, A5};
 
 //mouse control options 
 boolean dwell = false;
