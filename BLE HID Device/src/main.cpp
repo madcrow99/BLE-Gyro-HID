@@ -8,6 +8,7 @@
 BLEDis bledis;
 BLEHidAdafruit blehid;
 
+boolean gyro_connected= false;
 
 Adafruit_LSM6DSOX sox;
 sensors_event_t accel;
@@ -67,6 +68,7 @@ void setup() {
   if (!sox.begin_I2C()) {
     Serial.println("Failed to find IMU chip");
   }
+  else gyro_connected = true;
 
   for (int i = 0; i < NUM_BUTTONS; i++)
   {
@@ -79,6 +81,7 @@ void setup() {
 
 void loop() {
  
+ if (gyro_connected == true){
   // Get a new normalized sensor event 
   sox.getEvent(&accel, &gyro, &temp);
   
@@ -88,18 +91,18 @@ void loop() {
   
  // Serial.println(gyro.gyro.x);
   //Serial.println(gyro.gyro.z - averageZ);
-  Serial.println(gy);
+  //Serial.println(gy);
  // Serial.println("end");
   
   delay(5);//adjust the delay for smooth pointer movement 
-
+ }
   for (int i = 0; i < NUM_BUTTONS; i++){
     // Update button state after debouncing
     buttons[i].update();
 
   }
   //check if dwell click has been toggled on and click if appropriate 
-  if(dwell) dwell_click_control();
+  if(dwell && gyro_connected == true) dwell_click_control();
   //check for left, right scroll and dwell toggle and perform appropriate action 
   mouse_click_control();
 
