@@ -88,7 +88,7 @@ void loop() {
   gx = -((gyro.gyro.x - averageX) / 0.03);//change value as needed for mouse sensitivity
   gy = -((gyro.gyro.z - averageZ) / 0.03);//change value as needed for mouse sensitivity
   if{gx!=0 || gy!=0}{
-    blehid.mouseMove(gx*10, gy*10);
+    blehid.mouseMove(gx*10, gy*10);//change value as needed for mouse sensitivity
   }
 
   
