@@ -24,3 +24,7 @@ An instruction manual for building the device is included.
 The software has to be uploaded to the nRF52840. Platformio is recommended. Here is a link to the setup instructions:
 https://platformio.org/install/ide?install=vscode
 
+An Android App that performs swipe gestures when clicked can be found here
+https://github.com/madcrow99/AndroidMousePointerSwipeGestures
+This is quite helpful for navigating an android device while dwell cicking.
+
