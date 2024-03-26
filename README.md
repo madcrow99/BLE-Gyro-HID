@@ -17,7 +17,7 @@ dwell: tap to to toggle dwell clicking on and off. Dwell clicking is where the d
 
 ![image](https://user-images.githubusercontent.com/60524115/179322350-24508dca-ef58-469f-bc24-bb99bc8ad2ba.png)
 
-The device uses an Adafruit Feather Express nRF52840 and an IMU module to act as a Bluetooth low energy mouse. Please see the bill of materials for details. The case and gyro cover are 3d printed. The STL and STEP files ae included.
+The device uses an Adafruit Feather Express nRF52840 and an IMU module to act as a Bluetooth low energy mouse. Please see the bill of materials for details. The case and gyro cover are 3d printed. The STL and STEP files ae included. The Nordic nRF52840 is an amazing device and the Adafruit implementation of it is awesome. Thanks Adafruit for the wonderfully easy to use libraries!
 
 An instruction manual for building the device is included.
 
