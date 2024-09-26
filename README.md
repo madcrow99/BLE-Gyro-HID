@@ -1,6 +1,7 @@
 # BLE-Gyro-HID
 
 This project is to create a low-cost human interface device (HID) that enables people with motor impairments to control phones and computers. Basically, a mouse that requires very limited head movements to operate.
+please see this repository for how to game and control phones using only eye gaze https://github.com/madcrow99/windows-eye-control-of-external-devices.git
 
 The device uses a gyroscope mounted to an earpiece to track head movements (very little movement required) and move a mouse pointer accordingly. The device has 4 optional switch / button inputs (3.5mm headphone jack) for use with any switches that the user can control.
 
